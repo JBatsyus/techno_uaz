@@ -58,6 +58,12 @@
     item.appendChild(el("span", "catalog__benefit-mark", ""));
     var copy = el("span", "catalog__benefit-text");
     appendEmphasizedText(copy, text);
+    // Сноска на блок «Условия акций» (как на lada-msk)
+    if (/выгода до/i.test(text)) {
+      var note = el("a", "note", "*");
+      note.href = "#note-1";
+      copy.appendChild(note);
+    }
     item.appendChild(copy);
     return item;
   }
@@ -896,7 +902,11 @@
       });
       body.appendChild(specs);
       if (trim.discount > 0) {
-        body.appendChild(el("p", "trims__benefit", "Выгода до " + formatPrice(trim.discount)));
+        var trimBenefit = el("p", "trims__benefit", "Выгода до " + formatPrice(trim.discount));
+        var trimNote = el("a", "note", "*");
+        trimNote.href = "#note-1";
+        trimBenefit.appendChild(trimNote);
+        body.appendChild(trimBenefit);
       }
       var prices = el("div", "trims__prices");
       if (trim.priceOld > trim.price) {
