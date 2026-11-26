@@ -1,0 +1,110 @@
+/*---------TIMER (START)--------*/
+.timer {
+  padding: 2.5rem 0 2.75rem;
+  background: var(--color-onyx);
+  color: var(--color-white);
+}
+
+.timer__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.timer__label {
+  margin: 0;
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+  font-weight: var(--fw-bold);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.timer__grid {
+  display: flex;
+  gap: 1.35rem;
+}
+
+.timer__group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.timer__digits {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.timer__digit {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 2.85rem;
+  height: 3.75rem;
+  overflow: hidden;
+  border-radius: 0.45rem;
+  background: var(--color-white);
+  color: var(--color-graphite);
+  font-family: var(--font-price);
+  font-size: 2.55rem;
+  font-weight: var(--fw-medium);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.timer__digit::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0.35rem;
+  left: 0.35rem;
+  height: 1px;
+  background: var(--color-grey);
+}
+
+.timer__unit {
+  color: var(--color-white);
+  font-size: 0.8rem;
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.04em;
+  line-height: 1;
+  text-transform: lowercase;
+}
+
+.timer__action {
+  min-width: 16rem;
+}
+
+@media (max-width: 719px) {
+  .timer {
+    padding: 2rem 0 2.25rem;
+  }
+
+  .timer__grid {
+    gap: 0.55rem;
+  }
+
+  .timer__digits {
+    gap: 0.2rem;
+  }
+
+  .timer__digit {
+    width: 1.85rem;
+    height: 2.55rem;
+    border-radius: 0.35rem;
+    font-size: 1.65rem;
+  }
+
+  .timer__unit {
+    font-size: 0.7rem;
+  }
+
+  .timer__action {
+    min-width: 0;
+    width: 100%;
+  }
+}
+/*---------TIMER (END)--------*/

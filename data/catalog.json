@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "patriot",
+    "family": "patriot",
+    "familyName": "ПАТРИОТ",
+    "name": "ПАТРИОТ",
+    "benefits": [
+      "Выгода до 200 000 ₽"
+    ],
+    "price": 1805000,
+    "priceOld": 2005000,
+    "discount": 200000,
+    "image": "img/models/patriot/colors/white.webp",
+    "trims": [
+      {
+        "name": "Классик Икар 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 2005000,
+        "price": 1805000,
+        "discount": 200000
+      }
+    ],
+    "colors": [
+      {
+        "id": "white",
+        "name": "Белый",
+        "hex": "#FFFFFF",
+        "image": "img/models/patriot/colors/white.webp",
+        "border": true
+      },
+      {
+        "id": "black",
+        "name": "Чёрный металлик",
+        "hex": "#1C1C1C",
+        "image": "img/models/patriot/colors/black.webp"
+      },
+      {
+        "id": "brown",
+        "name": "Коричневый металлик",
+        "hex": "#4A3F3A",
+        "image": "img/models/patriot/colors/brown.webp"
+      },
+      {
+        "id": "dark-grey",
+        "name": "Тёмно-серый металлик",
+        "hex": "#4D555A",
+        "image": "img/models/patriot/colors/dark-grey.webp"
+      },
+      {
+        "id": "silver",
+        "name": "Серебристый металлик",
+        "hex": "#B8B8B8",
+        "image": "img/models/patriot/colors/silver.webp"
+      },
+      {
+        "id": "green",
+        "name": "Зелёный металлик",
+        "hex": "#3F4A38",
+        "image": "img/models/patriot/colors/green.webp"
+      }
+    ]
+  },
+  {
+    "id": "patriot-max",
+    "family": "patriot",
+    "familyName": "ПАТРИОТ",
+    "name": "ПАТРИОТ Максимум",
+    "benefits": [
+      "Выгода до 200 000 ₽"
+    ],
+    "price": 2070000,
+    "priceOld": 2270000,
+    "discount": 200000,
+    "image": "img/models/patriot-max/colors/white.webp",
+    "trims": [
+      {
+        "name": "Классик Икар (пакет Максимум) 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 2270000,
+        "price": 2070000,
+        "discount": 200000
+      }
+    ],
+    "colors": [
+      {
+        "id": "white",
+        "name": "Белый",
+        "hex": "#FFFFFF",
+        "image": "img/models/patriot-max/colors/white.webp",
+        "border": true
+      },
+      {
+        "id": "black",
+        "name": "Чёрный металлик",
+        "hex": "#1C1C1C",
+        "image": "img/models/patriot-max/colors/black.webp"
+      },
+      {
+        "id": "brown",
+        "name": "Коричневый металлик",
+        "hex": "#4A3F3A",
+        "image": "img/models/patriot-max/colors/brown.webp"
+      },
+      {
+        "id": "dark-grey",
+        "name": "Тёмно-серый металлик",
+        "hex": "#4D555A",
+        "image": "img/models/patriot-max/colors/dark-grey.webp"
+      },
+      {
+        "id": "silver",
+        "name": "Серебристый металлик",
+        "hex": "#B8B8B8",
+        "image": "img/models/patriot-max/colors/silver.webp"
+      },
+      {
+        "id": "green",
+        "name": "Зелёный металлик",
+        "hex": "#3F4A38",
+        "image": "img/models/patriot-max/colors/green.webp"
+      }
+    ]
+  },
+  {
+    "id": "pickup",
+    "family": "pickup",
+    "familyName": "ПИКАП",
+    "name": "ПИКАП",
+    "benefits": [
+      "Выгода до 200 000 ₽"
+    ],
+    "price": 1830000,
+    "priceOld": 2030000,
+    "discount": 200000,
+    "image": "img/models/pickup/colors/white.webp",
+    "trims": [
+      {
+        "name": "Классик Икар 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 2030000,
+        "price": 1830000,
+        "discount": 200000
+      }
+    ],
+    "colors": [
+      {
+        "id": "white",
+        "name": "Белый",
+        "hex": "#FFFFFF",
+        "image": "img/models/pickup/colors/white.webp",
+        "border": true
+      },
+      {
+        "id": "black",
+        "name": "Чёрный металлик",
+        "hex": "#1C1C1C",
+        "image": "img/models/pickup/colors/black.webp"
+      },
+      {
+        "id": "brown",
+        "name": "Коричневый металлик",
+        "hex": "#4A3F3A",
+        "image": "img/models/pickup/colors/brown.webp"
+      },
+      {
+        "id": "dark-grey",
+        "name": "Тёмно-серый металлик",
+        "hex": "#4D555A",
+        "image": "img/models/pickup/colors/dark-grey.webp"
+      },
+      {
+        "id": "silver",
+        "name": "Серебристый металлик",
+        "hex": "#B8B8B8",
+        "image": "img/models/pickup/colors/silver.webp"
+      },
+      {
+        "id": "green",
+        "name": "Зелёный металлик",
+        "hex": "#3F4A38",
+        "image": "img/models/pickup/colors/green.webp"
+      }
+    ]
+  },
+  {
+    "id": "pickup-max",
+    "family": "pickup",
+    "familyName": "ПИКАП",
+    "name": "ПИКАП Максимум",
+    "benefits": [
+      "Выгода до 200 000 ₽"
+    ],
+    "price": 2080000,
+    "priceOld": 2280000,
+    "discount": 200000,
+    "image": "img/models/pickup-max/colors/white.webp",
+    "trims": [
+      {
+        "name": "Классик Икар (пакет Максимум) 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 2280000,
+        "price": 2080000,
+        "discount": 200000
+      }
+    ],
+    "colors": [
+      {
+        "id": "white",
+        "name": "Белый",
+        "hex": "#FFFFFF",
+        "image": "img/models/pickup-max/colors/white.webp",
+        "border": true
+      },
+      {
+        "id": "black",
+        "name": "Чёрный металлик",
+        "hex": "#1C1C1C",
+        "image": "img/models/pickup-max/colors/black.webp"
+      },
+      {
+        "id": "brown",
+        "name": "Коричневый металлик",
+        "hex": "#4A3F3A",
+        "image": "img/models/pickup-max/colors/brown.webp"
+      },
+      {
+        "id": "dark-grey",
+        "name": "Тёмно-серый металлик",
+        "hex": "#4D555A",
+        "image": "img/models/pickup-max/colors/dark-grey.webp"
+      },
+      {
+        "id": "silver",
+        "name": "Серебристый металлик",
+        "hex": "#B8B8B8",
+        "image": "img/models/pickup-max/colors/silver.webp"
+      },
+      {
+        "id": "green",
+        "name": "Зелёный металлик",
+        "hex": "#3F4A38",
+        "image": "img/models/pickup-max/colors/green.webp"
+      }
+    ]
+  },
+  {
+    "id": "hunter",
+    "family": "hunter",
+    "familyName": "ХАНТЕР",
+    "name": "ХАНТЕР",
+    "benefits": [
+      "Выгода до 200 000 ₽"
+    ],
+    "price": 1600000,
+    "priceOld": 1800000,
+    "discount": 200000,
+    "image": "img/models/hunter/colors/white.webp",
+    "trims": [
+      {
+        "name": "Классик 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 1800000,
+        "price": 1600000,
+        "discount": 200000
+      },
+      {
+        "name": "Экспедиция 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 2115000,
+        "price": 1915000,
+        "discount": 200000
+      }
+    ],
+    "colors": [
+      {
+        "id": "white",
+        "name": "Белый",
+        "hex": "#FFFFFF",
+        "image": "img/models/hunter/colors/white.webp",
+        "border": true
+      },
+      {
+        "id": "black",
+        "name": "Чёрный",
+        "hex": "#1A1A1A",
+        "image": "img/models/hunter/colors/black.webp"
+      },
+      {
+        "id": "green",
+        "name": "Зелёный",
+        "hex": "#3A4A32",
+        "image": "img/models/hunter/colors/green.webp"
+      },
+      {
+        "id": "orange-matt",
+        "name": "Оранжевый матовый",
+        "hex": "#B85A3A",
+        "image": "img/models/hunter/colors/orange-matt.webp"
+      },
+      {
+        "id": "orange-raptor",
+        "name": "Оранжевый раптор",
+        "hex": "#D35400",
+        "image": "img/models/hunter/colors/orange-raptor.webp"
+      }
+    ]
+  },
+  {
+    "id": "profi-board-single",
+    "family": "profi",
+    "familyName": "ПРОФИ",
+    "name": "ПРОФИ Бортовой Однорядная кабина",
+    "benefits": [
+      "Выгода до 450 000 ₽"
+    ],
+    "price": 1620000,
+    "priceOld": 2070000,
+    "discount": 450000,
+    "image": "img/models/profi-board-single/colors/silver.webp",
+    "trims": [
+      {
+        "name": "Профи полуторка 4х2 Классик Икар 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "задний",
+        "gear": "МКПП 5",
+        "priceOld": 2070000,
+        "price": 1620000,
+        "discount": 450000
+      },
+      {
+        "name": "4х4 Классик Икар 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "задний",
+        "gear": "МКПП 5",
+        "priceOld": 2070000,
+        "price": 1620000,
+        "discount": 450000
+      },
+      {
+        "name": "Профи полуторка длинная база 4х2 Классик Икар 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "задний",
+        "gear": "МКПП 5",
+        "priceOld": 2140000,
+        "price": 1690000,
+        "discount": 450000
+      }
+    ],
+    "colors": [
+      {
+        "id": "silver",
+        "name": "Серебристый металлик",
+        "hex": "#B8B8B8",
+        "image": "img/models/profi-board-single/colors/silver.webp"
+      },
+      {
+        "id": "black",
+        "name": "Чёрный",
+        "hex": "#1A1A1A",
+        "image": "img/models/profi-board-single/colors/black.webp"
+      },
+      {
+        "id": "silver-matt",
+        "name": "Серебристый матовый",
+        "hex": "#A8A8A8",
+        "image": "img/models/profi-board-single/colors/silver-matt.webp"
+      },
+      {
+        "id": "white",
+        "name": "Белый",
+        "hex": "#FFFFFF",
+        "image": "img/models/profi-board-single/colors/white.webp",
+        "border": true
+      }
+    ]
+  },
+  {
+    "id": "profi-board-double",
+    "family": "profi",
+    "familyName": "ПРОФИ",
+    "name": "ПРОФИ Бортовой Двухрядная кабина",
+    "benefits": [
+      "Выгода до 450 000 ₽"
+    ],
+    "price": 1665000,
+    "priceOld": 2115000,
+    "discount": 450000,
+    "image": "img/models/profi-board-double/colors/dark-silver.webp",
+    "trims": [
+      {
+        "name": "4х4 Классик Икар 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 2115000,
+        "price": 1665000,
+        "discount": 450000
+      }
+    ],
+    "colors": [
+      {
+        "id": "dark-silver",
+        "name": "Тёмно-серебристый",
+        "hex": "#5C5C5C",
+        "image": "img/models/profi-board-double/colors/dark-silver.webp"
+      },
+      {
+        "id": "silver",
+        "name": "Серебристый металлик",
+        "hex": "#B8B8B8",
+        "image": "img/models/profi-board-double/colors/silver.webp"
+      },
+      {
+        "id": "white-grey",
+        "name": "Белый / серый",
+        "hex": "#D0D0D0",
+        "image": "img/models/profi-board-double/colors/white-grey.webp",
+        "border": true
+      },
+      {
+        "id": "white",
+        "name": "Белый",
+        "hex": "#FFFFFF",
+        "image": "img/models/profi-board-double/colors/white.webp",
+        "border": true
+      }
+    ]
+  },
+  {
+    "id": "profi-van-cargo",
+    "family": "profi",
+    "familyName": "ПРОФИ",
+    "name": "ПРОФИ Фургон Промтоварный",
+    "benefits": [
+      "Выгода до 450 000 ₽"
+    ],
+    "price": 1790000,
+    "priceOld": 2240000,
+    "discount": 450000,
+    "image": "img/models/profi-van-cargo/colors/dark-silver.webp",
+    "trims": [
+      {
+        "name": "Профи полуторка 4х2 Классик Икар 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "задний",
+        "gear": "МКПП 5",
+        "priceOld": 2240000,
+        "price": 1790000,
+        "discount": 450000
+      },
+      {
+        "name": "4х4 Классик Икар 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 2250000,
+        "price": 1800000,
+        "discount": 450000
+      },
+      {
+        "name": "Профи полуторка длинная база 4х2 Классик Икар 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "задний",
+        "gear": "МКПП 5",
+        "priceOld": 2335000,
+        "price": 1885000,
+        "discount": 450000
+      }
+    ],
+    "colors": [
+      {
+        "id": "dark-silver",
+        "name": "Тёмно-серебристый",
+        "hex": "#5C5C5C",
+        "image": "img/models/profi-van-cargo/colors/dark-silver.webp"
+      },
+      {
+        "id": "grey",
+        "name": "Серый",
+        "hex": "#7A7A7A",
+        "image": "img/models/profi-van-cargo/colors/grey.webp"
+      },
+      {
+        "id": "silver",
+        "name": "Серебристый металлик",
+        "hex": "#B8B8B8",
+        "image": "img/models/profi-van-cargo/colors/silver.webp"
+      },
+      {
+        "id": "white",
+        "name": "Белый",
+        "hex": "#FFFFFF",
+        "image": "img/models/profi-van-cargo/colors/white.webp",
+        "border": true
+      }
+    ]
+  },
+  {
+    "id": "profi-van-bread",
+    "family": "profi",
+    "familyName": "ПРОФИ",
+    "name": "ПРОФИ Фургон для перевозки хлеба",
+    "benefits": [
+      "Выгода до 450 000 ₽"
+    ],
+    "price": 1900000,
+    "priceOld": 2350000,
+    "discount": 450000,
+    "image": "img/models/profi-van-bread/colors/dark-silver.webp",
+    "trims": [
+      {
+        "name": "Профи полуторка 4х2 Классик Икар 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "задний",
+        "gear": "МКПП 5",
+        "priceOld": 2350000,
+        "price": 1900000,
+        "discount": 450000
+      },
+      {
+        "name": "4х4 Классик Икар 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 2360000,
+        "price": 1910000,
+        "discount": 450000
+      }
+    ],
+    "colors": [
+      {
+        "id": "dark-silver",
+        "name": "Тёмно-серебристый",
+        "hex": "#5C5C5C",
+        "image": "img/models/profi-van-bread/colors/dark-silver.webp"
+      },
+      {
+        "id": "grey",
+        "name": "Серый",
+        "hex": "#7A7A7A",
+        "image": "img/models/profi-van-bread/colors/grey.webp"
+      },
+      {
+        "id": "silver",
+        "name": "Серебристый металлик",
+        "hex": "#B8B8B8",
+        "image": "img/models/profi-van-bread/colors/silver.webp"
+      },
+      {
+        "id": "white",
+        "name": "Белый",
+        "hex": "#FFFFFF",
+        "image": "img/models/profi-van-bread/colors/white.webp",
+        "border": true
+      }
+    ]
+  },
+  {
+    "id": "profi-van-iso",
+    "family": "profi",
+    "familyName": "ПРОФИ",
+    "name": "ПРОФИ Фургон Изотермический",
+    "benefits": [
+      "Выгода до 450 000 ₽"
+    ],
+    "price": 1920000,
+    "priceOld": 2370000,
+    "discount": 450000,
+    "image": "img/models/profi-van-iso/colors/dark-silver.webp",
+    "trims": [
+      {
+        "name": "Профи полуторка 4х2 Классик Икар 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "задний",
+        "gear": "МКПП 5",
+        "priceOld": 2370000,
+        "price": 1920000,
+        "discount": 450000
+      },
+      {
+        "name": "4х4 Классик Икар 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 2380000,
+        "price": 1930000,
+        "discount": 450000
+      },
+      {
+        "name": "Профи полуторка длинная база 4х2 Классик Икар 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "задний",
+        "gear": "МКПП 5",
+        "priceOld": 2440000,
+        "price": 1990000,
+        "discount": 450000
+      }
+    ],
+    "colors": [
+      {
+        "id": "dark-silver",
+        "name": "Тёмно-серебристый",
+        "hex": "#5C5C5C",
+        "image": "img/models/profi-van-iso/colors/dark-silver.webp"
+      },
+      {
+        "id": "grey",
+        "name": "Серый",
+        "hex": "#7A7A7A",
+        "image": "img/models/profi-van-iso/colors/grey.webp"
+      },
+      {
+        "id": "silver",
+        "name": "Серебристый металлик",
+        "hex": "#B8B8B8",
+        "image": "img/models/profi-van-iso/colors/silver.webp"
+      },
+      {
+        "id": "white",
+        "name": "Белый",
+        "hex": "#FFFFFF",
+        "image": "img/models/profi-van-iso/colors/white.webp",
+        "border": true
+      }
+    ]
+  },
+  {
+    "id": "profi-van-ref",
+    "family": "profi",
+    "familyName": "ПРОФИ",
+    "name": "ПРОФИ Фургон Рефрижератор",
+    "benefits": [
+      "Выгода до 450 000 ₽"
+    ],
+    "price": 2155000,
+    "priceOld": 2605000,
+    "discount": 450000,
+    "image": "img/models/profi-van-ref/colors/dark-silver.webp",
+    "trims": [
+      {
+        "name": "Профи полуторка 4х2 Классик Икар 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "задний",
+        "gear": "МКПП 5",
+        "priceOld": 2605000,
+        "price": 2155000,
+        "discount": 450000
+      },
+      {
+        "name": "4х4 Классик Икар 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "задний",
+        "gear": "МКПП 5",
+        "priceOld": 2615000,
+        "price": 2165000,
+        "discount": 450000
+      }
+    ],
+    "colors": [
+      {
+        "id": "dark-silver",
+        "name": "Тёмно-серебристый",
+        "hex": "#5C5C5C",
+        "image": "img/models/profi-van-ref/colors/dark-silver.webp"
+      },
+      {
+        "id": "grey",
+        "name": "Серый",
+        "hex": "#7A7A7A",
+        "image": "img/models/profi-van-ref/colors/grey.webp"
+      },
+      {
+        "id": "silver",
+        "name": "Серебристый металлик",
+        "hex": "#B8B8B8",
+        "image": "img/models/profi-van-ref/colors/silver.webp"
+      },
+      {
+        "id": "white",
+        "name": "Белый",
+        "hex": "#FFFFFF",
+        "image": "img/models/profi-van-ref/colors/white.webp",
+        "border": true
+      }
+    ]
+  },
+  {
+    "id": "bukhanka-board-single",
+    "family": "bukhanka",
+    "familyName": "БУХАНКА",
+    "name": "БУХАНКА Бортовой однорядная кабина",
+    "benefits": [
+      "Выгода до 400 000 ₽"
+    ],
+    "price": 1370000,
+    "priceOld": 1770000,
+    "discount": 400000,
+    "image": "img/models/bukhanka-board-single/colors/light-grey.webp",
+    "trims": [
+      {
+        "name": "Однорядная Кабина",
+        "hp": "112,2 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 1770000,
+        "price": 1370000,
+        "discount": 400000
+      }
+    ],
+    "colors": [
+      {
+        "id": "light-grey",
+        "name": "Светло-серый",
+        "hex": "#D6D6D6",
+        "image": "img/models/bukhanka-board-single/colors/light-grey.webp",
+        "border": true
+      },
+      {
+        "id": "green",
+        "name": "Зелёный",
+        "hex": "#3A4A32",
+        "image": "img/models/bukhanka-board-single/colors/green.webp"
+      }
+    ]
+  },
+  {
+    "id": "bukhanka-board-double",
+    "family": "bukhanka",
+    "familyName": "БУХАНКА",
+    "name": "БУХАНКА Бортовой двухрядная кабина",
+    "benefits": [
+      "Выгода до 200 000 ₽"
+    ],
+    "price": 1570000,
+    "priceOld": 1770000,
+    "discount": 200000,
+    "image": "img/models/bukhanka-board-double/colors/light-grey.webp",
+    "trims": [
+      {
+        "name": "Двухрядная Кабина",
+        "hp": "112,2 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 1770000,
+        "price": 1570000,
+        "discount": 200000
+      }
+    ],
+    "colors": [
+      {
+        "id": "light-grey",
+        "name": "Светло-серый",
+        "hex": "#D6D6D6",
+        "image": "img/models/bukhanka-board-double/colors/light-grey.webp",
+        "border": true
+      },
+      {
+        "id": "green",
+        "name": "Зелёный",
+        "hex": "#3A4A32",
+        "image": "img/models/bukhanka-board-double/colors/green.webp"
+      }
+    ]
+  },
+  {
+    "id": "bukhanka-van-2",
+    "family": "bukhanka",
+    "familyName": "БУХАНКА",
+    "name": "БУХАНКА Фургон 2 места",
+    "benefits": [
+      "Выгода до 400 000 ₽"
+    ],
+    "price": 1345000,
+    "priceOld": 1745000,
+    "discount": 400000,
+    "image": "img/models/bukhanka-van-2/colors/light-grey.webp",
+    "trims": [
+      {
+        "name": "Фургон 2 места",
+        "hp": "112,2 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 1745000,
+        "price": 1345000,
+        "discount": 400000
+      }
+    ],
+    "colors": [
+      {
+        "id": "light-grey",
+        "name": "Светло-серый",
+        "hex": "#D6D6D6",
+        "image": "img/models/bukhanka-van-2/colors/light-grey.webp",
+        "border": true
+      },
+      {
+        "id": "green",
+        "name": "Зелёный",
+        "hex": "#3A4A32",
+        "image": "img/models/bukhanka-van-2/colors/green.webp"
+      }
+    ]
+  },
+  {
+    "id": "bukhanka-van-5",
+    "family": "bukhanka",
+    "familyName": "БУХАНКА",
+    "name": "БУХАНКА Фургон 5 мест",
+    "benefits": [
+      "Выгода до 400 000 ₽"
+    ],
+    "price": 1345000,
+    "priceOld": 1745000,
+    "discount": 400000,
+    "image": "img/models/bukhanka-van-5/colors/light-grey.webp",
+    "trims": [
+      {
+        "name": "Фургон 5 мест",
+        "hp": "112,2 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 1745000,
+        "price": 1345000,
+        "discount": 400000
+      }
+    ],
+    "colors": [
+      {
+        "id": "light-grey",
+        "name": "Светло-серый",
+        "hex": "#D6D6D6",
+        "image": "img/models/bukhanka-van-5/colors/light-grey.webp",
+        "border": true
+      },
+      {
+        "id": "green",
+        "name": "Зелёный",
+        "hex": "#3A4A32",
+        "image": "img/models/bukhanka-van-5/colors/green.webp"
+      }
+    ]
+  },
+  {
+    "id": "bukhanka-combi-5",
+    "family": "bukhanka",
+    "familyName": "БУХАНКА",
+    "name": "БУХАНКА Комби 5 мест",
+    "benefits": [
+      "Выгода до 400 000 ₽"
+    ],
+    "price": 1340000,
+    "priceOld": 1740000,
+    "discount": 400000,
+    "image": "img/models/bukhanka-combi-5/colors/light-grey.webp",
+    "trims": [
+      {
+        "name": "Комби 5 мест",
+        "hp": "112,2 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 1740000,
+        "price": 1340000,
+        "discount": 400000
+      }
+    ],
+    "colors": [
+      {
+        "id": "light-grey",
+        "name": "Светло-серый",
+        "hex": "#D6D6D6",
+        "image": "img/models/bukhanka-combi-5/colors/light-grey.webp",
+        "border": true
+      },
+      {
+        "id": "green",
+        "name": "Зелёный",
+        "hex": "#3A4A32",
+        "image": "img/models/bukhanka-combi-5/colors/green.webp"
+      }
+    ]
+  },
+  {
+    "id": "bukhanka-combi-7",
+    "family": "bukhanka",
+    "familyName": "БУХАНКА",
+    "name": "БУХАНКА Комби 7 мест",
+    "benefits": [
+      "Выгода до 400 000 ₽"
+    ],
+    "price": 1345000,
+    "priceOld": 1745000,
+    "discount": 400000,
+    "image": "img/models/bukhanka-combi-7/colors/light-grey.webp",
+    "trims": [
+      {
+        "name": "Комби 7 мест",
+        "hp": "112,2 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 1745000,
+        "price": 1345000,
+        "discount": 400000
+      }
+    ],
+    "colors": [
+      {
+        "id": "light-grey",
+        "name": "Светло-серый",
+        "hex": "#D6D6D6",
+        "image": "img/models/bukhanka-combi-7/colors/light-grey.webp",
+        "border": true
+      },
+      {
+        "id": "green",
+        "name": "Зелёный",
+        "hex": "#3A4A32",
+        "image": "img/models/bukhanka-combi-7/colors/green.webp"
+      }
+    ]
+  },
+  {
+    "id": "bukhanka-bus-9",
+    "family": "bukhanka",
+    "familyName": "БУХАНКА",
+    "name": "БУХАНКА Автобус 9 мест",
+    "benefits": [
+      "Выгода до 400 000 ₽"
+    ],
+    "price": 1410000,
+    "priceOld": 1810000,
+    "discount": 400000,
+    "image": "img/models/bukhanka-bus-9/colors/light-grey.webp",
+    "trims": [
+      {
+        "name": "Автобус 9 мест",
+        "hp": "112,2 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 1810000,
+        "price": 1410000,
+        "discount": 400000
+      }
+    ],
+    "colors": [
+      {
+        "id": "light-grey",
+        "name": "Светло-серый",
+        "hex": "#D6D6D6",
+        "image": "img/models/bukhanka-bus-9/colors/light-grey.webp",
+        "border": true
+      },
+      {
+        "id": "green",
+        "name": "Зелёный",
+        "hex": "#3A4A32",
+        "image": "img/models/bukhanka-bus-9/colors/green.webp"
+      }
+    ]
+  },
+  {
+    "id": "bukhanka-expedition-combi-7",
+    "family": "bukhanka",
+    "familyName": "БУХАНКА",
+    "name": "БУХАНКА Экспедиция Комби 7 мест",
+    "benefits": [
+      "Выгода до 400 000 ₽"
+    ],
+    "price": 1620000,
+    "priceOld": 2020000,
+    "discount": 400000,
+    "image": "img/models/bukhanka-expedition-combi-7/colors/orange.webp",
+    "trims": [
+      {
+        "name": "Комби 7 мест",
+        "hp": "112,2 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 2020000,
+        "price": 1620000,
+        "discount": 400000
+      }
+    ],
+    "colors": [
+      {
+        "id": "orange",
+        "name": "Оранжевый",
+        "hex": "#C45A2D",
+        "image": "img/models/bukhanka-expedition-combi-7/colors/orange.webp"
+      },
+      {
+        "id": "orange-raptor",
+        "name": "Оранжевый раптор",
+        "hex": "#D35400",
+        "image": "img/models/bukhanka-expedition-combi-7/colors/orange-raptor.webp"
+      }
+    ]
+  }
+]

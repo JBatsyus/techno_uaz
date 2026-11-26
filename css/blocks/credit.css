@@ -1,0 +1,242 @@
+/*---------CREDIT (START)--------*/
+.credit {
+    position: relative;
+    color: var(--color-white);
+    background: var(--color-onyx);
+}
+
+.credit__picture {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+.credit__photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 12% center;
+}
+
+.credit__shade {
+    position: absolute;
+    inset: 0;
+    /* текст справа — общий scrim + сильный градиент к правому краю */
+    background-color: rgba(var(--color-graphite-rgb), 0.38);
+    background-image: linear-gradient(
+        90deg,
+        rgba(var(--color-graphite-rgb), 0.05) 0%,
+        rgba(var(--color-graphite-rgb), 0.35) 42%,
+        rgba(var(--color-graphite-rgb), 0.78) 68%,
+        rgba(var(--color-graphite-rgb), 0.92) 100%
+    );
+}
+
+.credit__inner {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    gap: var(--space-l);
+    padding: var(--space-xl) 0 calc(var(--space-xl) + var(--ticker-height));
+}
+
+.credit__copy {
+    max-width: 28rem;
+    text-shadow: 0 1px 2px rgba(var(--color-graphite-rgb), 0.45), 0 8px 24px rgba(var(--color-graphite-rgb), 0.35);
+}
+
+.credit__head {
+    display: grid;
+    gap: 0.35rem;
+}
+
+.credit__kicker {
+    margin: 0;
+    font-size: var(--text-s);
+    font-weight: var(--fw-light);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.credit__title {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.25rem);
+    font-weight: var(--fw-bold);
+    line-height: 1.02;
+}
+
+.credit__title-line {
+    white-space: nowrap;
+}
+
+.credit__value {
+    color: var(--color-offer);
+    font-family: var(--font-price);
+    font-weight: var(--fw-medium);
+}
+
+.credit__lead {
+    margin-top: 0.65rem;
+    margin-bottom: 1rem;
+    font-size: var(--text-l);
+    font-weight: var(--fw-medium);
+    line-height: 1.25;
+}
+
+.credit__points {
+    display: grid;
+    gap: 0.45rem;
+    margin: 0.85rem 0 1.15rem;
+    padding: 0;
+    list-style: none;
+    font-size: var(--text-m);
+    line-height: 1.35;
+}
+
+.credit__points li {
+    position: relative;
+    padding-left: 1rem;
+}
+
+.credit__points li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 0.375rem;
+    height: 0.375rem;
+    background: var(--color-accent);
+}
+
+.credit__panel {
+    padding: var(--space-m);
+    border-radius: var(--radius-card);
+    background: var(--color-white);
+    color: var(--color-text);
+    box-shadow: 0 16px 40px rgba(var(--color-graphite-rgb), 0.22);
+}
+
+.credit__panel-title {
+    margin-bottom: var(--space-s);
+    font-size: var(--text-m);
+    font-weight: var(--fw-bold);
+}
+
+.credit__panel .form__check {
+    font-size: 0.875rem;
+    line-height: 1.4;
+}
+
+@media (min-width: 900px) {
+    .credit__inner {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        min-height: 500px;
+    }
+}
+
+/* Планшет / стык с мобилкой: портретный кадр, ровный ритм текста */
+@media (max-width: 899px) {
+    .credit {
+        min-height: 0;
+    }
+
+    .credit__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        min-height: clamp(26rem, 92vw, 34rem);
+        padding-top: clamp(1.25rem, 3vw, 1.85rem);
+        padding-bottom: calc(clamp(1.25rem, 3vw, 1.85rem) + var(--ticker-height));
+    }
+
+    .credit__copy {
+        display: flex;
+        flex-direction: column;
+        gap: 1.15rem;
+        width: min(100%, 36rem);
+        max-width: none;
+    }
+
+    .credit__title {
+        font-size: clamp(1.65rem, 4.4vw, 2.25rem);
+        line-height: 1.18;
+        text-wrap: balance;
+    }
+
+    .credit__title br {
+        display: none;
+    }
+
+    .credit__title-line {
+        white-space: normal;
+    }
+
+    .credit__points {
+        display: grid;
+        gap: 0.65rem;
+        margin: 0;
+        font-size: clamp(0.95rem, 2.1vw, 1.05rem);
+        line-height: 1.4;
+    }
+
+    .credit__copy .button {
+        width: 100%;
+        max-width: 22rem;
+        margin-top: 0.15rem;
+    }
+
+    .credit__panel .form__check {
+        font-size: var(--text-s);
+    }
+
+    .credit__shade {
+        background-color: rgba(var(--color-graphite-rgb), 0.28);
+        background-image: linear-gradient(
+            180deg,
+            rgba(var(--color-graphite-rgb), 0.86) 0%,
+            rgba(var(--color-graphite-rgb), 0.62) 34%,
+            rgba(var(--color-graphite-rgb), 0.28) 58%,
+            rgba(var(--color-graphite-rgb), 0.5) 82%,
+            rgba(var(--color-graphite-rgb), 0.7) 100%
+        );
+    }
+
+    .credit__photo {
+        object-position: center 28%;
+    }
+}
+
+/* Мобилка */
+@media (max-width: 719px) {
+    .credit__inner {
+        min-height: clamp(28rem, 148vw, 38rem);
+        padding-top: var(--space-m);
+        padding-bottom: calc(var(--space-m) + var(--ticker-height));
+    }
+
+    .credit__copy {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .credit__title {
+        font-size: clamp(1.5rem, 6.8vw, 1.95rem);
+    }
+
+    .credit__points {
+        gap: 0.6rem;
+        font-size: var(--text-m);
+    }
+
+    .credit__copy .button {
+        max-width: none;
+    }
+
+    .credit__photo {
+        object-position: center 22%;
+    }
+}
+/*---------CREDIT (END)--------*/
