@@ -16,7 +16,7 @@
 @import url("blocks/cookie.css");
 @import url("blocks/legal.css");
 
-/* УАЗ брендбук 2024 §3.1 Stem + веса как на uaz.ru; fallback Arial */
+/* УАЗ брендбук fallback Arial */
 :root {
   /* Breakpoints (mobile-first): 480 / 768 / 992 / 1100 / 1280 */
   /* Palette: УАЗ брендбук 2024
@@ -43,7 +43,7 @@
   --color-danger: var(--color-red);
   --font-main: "Stem", Arial, Helvetica, sans-serif;
   --font-price: "Stem", Arial, Helvetica, sans-serif;
-  /* Stem: Light / Regular / Medium / Bold — те же numeric weights, что на uaz.ru */
+
   --fw-light: 100;
   --fw-regular: 300;
   --fw-medium: 400;
