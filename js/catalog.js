@@ -102,6 +102,11 @@
 
   // ——— FAMILIES (табы семейств) ———
 
+  // Профи / Буханка — коммерческие линейки: кикер «Семейство» на табе и в карточке
+  function familyShowsLabel(familyId) {
+    return familyId === "profi" || familyId === "bukhanka";
+  }
+
   // Уникальные семейства в порядке первого появления в JSON
   function familyList(models) {
     var seen = {};
@@ -250,6 +255,12 @@
 
     var title = modelTitleParts(model);
     var head = el("div", "catalog__detail-head");
+    if (familyShowsLabel(model.family)) {
+      var familyLine = el("p", "catalog__detail-family");
+      familyLine.appendChild(el("span", "catalog__detail-family-label", "Семейство"));
+      familyLine.appendChild(el("span", "catalog__detail-family-name", title.family || title.model));
+      head.appendChild(familyLine);
+    }
     var name = el("h3", "catalog__detail-name");
     name.appendChild(el("span", "catalog__detail-model", title.model));
     if (title.body) {
@@ -396,6 +407,10 @@
       button.setAttribute("aria-controls", "catalog-" + family.id);
       button.setAttribute("tabindex", selected ? "0" : "-1");
 
+      if (familyShowsLabel(family.id)) {
+        button.classList.add("catalog__family--labeled");
+        button.appendChild(el("span", "catalog__family-label", "Семейство"));
+      }
       button.appendChild(el("span", "catalog__family-name", family.name));
       if (family.image) {
         var photo = el("img", "catalog__family-photo");
