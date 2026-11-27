@@ -250,11 +250,6 @@
 
     var title = modelTitleParts(model);
     var head = el("div", "catalog__detail-head");
-    var family = el("p", "catalog__detail-family");
-    family.appendChild(el("span", "catalog__detail-family-label", "Семейство"));
-    family.appendChild(el("span", "catalog__detail-family-name", title.family || title.model));
-    head.appendChild(family);
-
     var name = el("h3", "catalog__detail-name");
     name.appendChild(el("span", "catalog__detail-model", title.model));
     if (title.body) {
@@ -401,7 +396,6 @@
       button.setAttribute("aria-controls", "catalog-" + family.id);
       button.setAttribute("tabindex", selected ? "0" : "-1");
 
-      button.appendChild(el("span", "catalog__family-label", "Семейство"));
       button.appendChild(el("span", "catalog__family-name", family.name));
       if (family.image) {
         var photo = el("img", "catalog__family-photo");
