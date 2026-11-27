@@ -255,7 +255,7 @@
     "id": "hunter",
     "family": "hunter",
     "familyName": "ХАНТЕР",
-    "name": "ХАНТЕР",
+    "name": "ХАНТЕР Классик",
     "benefits": [
       "Выгода до 200 000 ₽"
     ],
@@ -271,15 +271,6 @@
         "gear": "МКПП 5",
         "priceOld": 1800000,
         "price": 1600000,
-        "discount": 200000
-      },
-      {
-        "name": "Экспедиция 2.7 МТ бензин",
-        "hp": "149,6 л.с.",
-        "drive": "полный",
-        "gear": "МКПП 5",
-        "priceOld": 2115000,
-        "price": 1915000,
         "discount": 200000
       }
     ],
@@ -302,18 +293,44 @@
         "name": "Зелёный",
         "hex": "#3A4A32",
         "image": "img/models/hunter/colors/green.webp"
-      },
+      }
+    ]
+  },
+  {
+    "id": "hunter-expedition",
+    "family": "hunter",
+    "familyName": "ХАНТЕР",
+    "name": "ХАНТЕР Экспедиция",
+    "benefits": [
+      "Выгода до 200 000 ₽"
+    ],
+    "price": 1915000,
+    "priceOld": 2115000,
+    "discount": 200000,
+    "image": "img/models/hunter-expedition/colors/orange-matt.webp",
+    "trims": [
+      {
+        "name": "Экспедиция 2.7 МТ бензин",
+        "hp": "149,6 л.с.",
+        "drive": "полный",
+        "gear": "МКПП 5",
+        "priceOld": 2115000,
+        "price": 1915000,
+        "discount": 200000
+      }
+    ],
+    "colors": [
       {
         "id": "orange-matt",
         "name": "Оранжевый матовый",
         "hex": "#B85A3A",
-        "image": "img/models/hunter/colors/orange-matt.webp"
+        "image": "img/models/hunter-expedition/colors/orange-matt.webp"
       },
       {
         "id": "orange-raptor",
         "name": "Оранжевый раптор",
         "hex": "#D35400",
-        "image": "img/models/hunter/colors/orange-raptor.webp"
+        "image": "img/models/hunter-expedition/colors/orange-raptor.webp"
       }
     ]
   },
